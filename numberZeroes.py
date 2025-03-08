@@ -5,5 +5,3 @@ def zeros(n):
         result += n//i
         i=i*5
     return result 
-
-print(zeros(1000))
