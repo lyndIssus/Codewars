@@ -20,7 +20,6 @@ def encode_rail_fence_cipher(string, n):
         result+= ''.join(map(str,i))
     return result
 
-
 def decode_rail_fence_cipher(string, n):
     rail=[]
     for i in range(n):
